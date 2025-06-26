@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bazil With Tailwind</title>
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+</head>
+<body>
+    <div class="navbar w-full h-20 flex z-10  items-center justify-between pr-8 pl-8 border-b  border-gray-200 bg-blend-difference fixed">
+        <div class="logo lg:text-4xl text-xl font-semibold">Bazil</div>
+        <div class="menu lg:text-2xl text-l font-medium flex items-center gap-8 ">
+            <a class="hover:text-yellow-600" href="">Home</a>
+            <a class="hover:text-yellow-600" href="">About</a>
+            <a class="hover:text-yellow-600" href="">Service</a>
+            <a class="hover:text-yellow-600" href="">Contact</a>
+        </div>
+        <div class="btns lg:text-2xl text-l font-medium flex items-center gap-8">
+            <a class="hover:text-yellow-600" href="">Login</a>
+            <a class="p-4 bg-black text-white rounded-full text-sm pr-6 pl-6 hover:bg-white hover:text-black border-1 border-black" href="">Signup</a>
+        </div>
+    </div>
+    <div class="hero w-full relative h-200">
+    <img
+        class="mask-linear-300 w-full h-170 object-cover relative z-[1]"
+        src="./bg.jpg"
+        alt="Hero background"
+    />
+    <h1 class="text-7xl text-white absolute top-57 left-35 right-0 px-8 z-[2]">
+        Hello Fellow <br />
+        This is Bazil <br />
+        UI Developer
+    </h1>
+    <img
+        class="w-100 h-100 object-contain absolute top-30 right-35   z-[3]" 
+        src="/boy.png" 
+        alt=""
+    >
+    </div>
+
+</body>
+</html>
